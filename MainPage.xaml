@@ -17,7 +17,7 @@
         <TextBlock x:Name ="HealthValue" Text="{Binding Health, UpdateSourceTrigger=PropertyChanged}" Foreground="White" FontSize="26" Margin="333,522,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="52"/>
         <Image x:Name="Paranoia" Source="/Assets/Attributes/Paranoia.PNG" Margin="483,492,0,0" Width="58" Height="56" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <TextBlock x:Name ="ParanoiaValue" Text="{Binding Paranoia, UpdateSourceTrigger=PropertyChanged}" Foreground="Black" FontSize="26" Margin="486,545,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="51"/>
-        <Image x:Name="Defense" Source="/Assets/Attributes/Defense.PNG" Margin="276,415,1140,500" Width="77" Height="85" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Image x:Name="Defense" Source="/Assets/Attributes/Defense.PNG" Margin="272,405,0,0" Width="77" Height="85" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <TextBlock x:Name ="DefenseValue" Text="{Binding Defense, UpdateSourceTrigger=PropertyChanged}" Foreground="White" FontSize="26" Margin="296,430,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50"/>
         <Image x:Name="MagicDefense" Source="/Assets/Attributes/MagicShield.PNG" Margin="387,407,0,0" Width="58" Height="58" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <TextBlock x:Name ="MagicDefenseValue" Text="{Binding MagicDefense, UpdateSourceTrigger=PropertyChanged}" Foreground="Black" FontSize="26" Margin="388,462,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>

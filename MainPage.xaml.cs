@@ -46,6 +46,7 @@ namespace MouseterousTheThirdAge
             this.gCharacterInfo.Defense = randomNumGen.Next(0, 999);
             this.gCharacterInfo.MagicDefense = randomNumGen.Next(0, 999);
             this.gCharacterInfo.ParanoiaShield = randomNumGen.Next(0, 999);
+            
         }
 
         private void SetAttributeInfo(CharacterInfo CharacterInfo)
