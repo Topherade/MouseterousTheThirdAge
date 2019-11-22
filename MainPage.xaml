@@ -1,0 +1,79 @@
+﻿<Page
+    x:Class="MouseterousTheThirdAge.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MouseterousTheThirdAge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="97" Margin="0,222,0,0" VerticalAlignment="Top" Width="269"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="514" Margin="0,318,0,0" VerticalAlignment="Top" Width="269"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="165" Margin="0,832,0,0" VerticalAlignment="Top" Width="269"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="174" Margin="268,405,0,0" VerticalAlignment="Top" Width="194"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="174" Margin="461,405,0,0" VerticalAlignment="Top" Width="107"/>
+        <Image x:Name="Health" Source="/Assets/Attributes/Life.PNG" Margin="321,505,1102,420" Width="77" Height="75" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <TextBlock x:Name ="HealthValue" Text="{Binding Health, UpdateSourceTrigger=PropertyChanged}" Foreground="White" FontSize="26" Margin="333,522,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="52"/>
+        <Image x:Name="Paranoia" Source="/Assets/Attributes/Paranoia.PNG" Margin="483,492,0,0" Width="58" Height="56" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name ="ParanoiaValue" Text="{Binding Paranoia, UpdateSourceTrigger=PropertyChanged}" Foreground="Black" FontSize="26" Margin="486,545,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="51"/>
+        <Image x:Name="Defense" Source="/Assets/Attributes/Defense.PNG" Margin="276,415,1140,500" Width="77" Height="85" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name ="DefenseValue" Text="{Binding Defense, UpdateSourceTrigger=PropertyChanged}" Foreground="White" FontSize="26" Margin="296,430,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50"/>
+        <Image x:Name="MagicDefense" Source="/Assets/Attributes/MagicShield.PNG" Margin="387,407,0,0" Width="58" Height="58" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name ="MagicDefenseValue" Text="{Binding MagicDefense, UpdateSourceTrigger=PropertyChanged}" Foreground="Black" FontSize="26" Margin="388,462,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="65"/>
+        <Image x:Name="ParanoiaShield" Source="/Assets/Attributes/ParanoiaShield.PNG" Margin="483,408,0,0" Width="57" Height="57" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name ="ParanoiaShieldValue" Text="{Binding ParanoiaShield, UpdateSourceTrigger=PropertyChanged}" Foreground="Black" FontSize="26" Margin="489,461,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50"/>
+        <Button x:Name="Accessory1" Margin="-11,226,0,0" VerticalAlignment="Top" Width="100" Background="#00000000" Click="Accessory1_Click">
+            <Image  Source="/Assets/BaseUIEquipment/ring.PNG"  />
+        </Button>
+        <Button x:Name="Necklace" Margin="79,226,0,0" VerticalAlignment="Top" Width="100" Background="#00000000" Click="Necklace_Click" >
+            <Image  Source="/Assets/BaseUIEquipment/necklace.PNG" />
+        </Button>
+        <Button x:Name="Accessory2" Margin="169,224,0,0" VerticalAlignment="Top" Width="100" Background="#00000000" Click="Accessory2_Click" >
+            <Image  Source="/Assets/BaseUIEquipment/ring.PNG" />
+        </Button>
+        <Button x:Name="Head" Height="115" Margin="66,320,0,0" VerticalAlignment="Top" Width="114" Background="#00000000" Click="Head_Click">
+            <Image Source="/Assets/BaseUIEquipment/MouseHead.PNG" />
+        </Button>
+        <Button x:Name="Body" Height="209" Margin="-9,417,0,0" VerticalAlignment="Top" Width="275" Background="#00000000" Click="Body_Click">
+            <Image Source="/Assets/BaseUIEquipment/Body.PNG"/>
+        </Button>
+        <Button x:Name="Pants" Height="181" Margin="72,512,0,0" VerticalAlignment="Top" Width="120" Background="#00000000" Click="Pants_Click" >
+            <Image Source="/Assets/BaseUIEquipment/Pants.PNG"/>
+        </Button>
+        <Button x:Name="Boots" Height="183" Margin="65,642,0,0" VerticalAlignment="Top" Width="147" Background="#00000000" Click="Boots_Click">
+            <Image  Source="/Assets/BaseUIEquipment/Boots.PNG"/>
+        </Button>
+        <Button x:Name="LeftWeapon" Margin="-10,846,0,0" VerticalAlignment="Top" Width="147" Background="#00000000" Click="LeftWeapon_Click">
+            <Image  Source="/Assets/BaseUIEquipment/crossed-swords.PNG"  />
+        </Button>
+        <Button x:Name="RightWeapon" Margin="120,846,0,0" VerticalAlignment="Top" Width="147" Background="#00000000" Click="RightWeapon_Click" >
+            <Image  Source="/Assets/BaseUIEquipment/round-shield.PNG" />
+        </Button>
+        <Button x:Name="CharacterTabButton" Content="Character Tab" Height="79" VerticalAlignment="Top" Width="269" FontSize="36" Click="CharacterTabButton_Click"/>
+        <Button x:Name="ClanTabButton" Content="Clan Tab" Height="79" Margin="269,0,0,0" VerticalAlignment="Top" Width="269" FontSize="36" Click="ClanTabButton_Click"/>
+        <Button x:Name="ItemsTabButton" Content="Items Tab" Height="79" Margin="538,0,0,0" VerticalAlignment="Top" Width="269" FontSize="36" Click="ItemsTabButton_Click"/>
+        <Button x:Name="AbilitiesTabButton" Content="Abilities Tab" Height="79" Margin="807,0,0,0" VerticalAlignment="Top" Width="269" FontSize="36" Click="AbilitiesTabButton_Click"/>
+        <Button x:Name="SaveButton" Content="Save To Server" Height="79" Margin="1250,920,0,0" VerticalAlignment="Top" FontSize="36" Click="SaveButton_Click" />
+        <TextBox x:Name="Clan_Name" HorizontalAlignment="Left" Height="79" Margin="1076,0,0,0" Text="Clan Name Here" TextWrapping="Wrap" VerticalAlignment="Top" Width="423" FontSize="36"/>
+        <TextBox x:Name="Mouse_Name" HorizontalAlignment="Left" Height="140" Margin="-1,82,0,0" Text="Mouse Name Here" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontSize="24"/>
+
+        <ListView x:Name="Attributes" HorizontalAlignment="Left" Height="324" Margin="269,82,0,0" VerticalAlignment="Top" Width="300" BorderThickness="2,2,2,2" RequestedTheme="Default" BorderBrush="Black" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="185"/>
+                            <ColumnDefinition Width="65"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Width="32" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Source="{Binding ImageURL}" />
+                        <TextBlock Text="{Binding Name}" Foreground="Teal" FontSize="26" Grid.Column="1" VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding Value}" Foreground="Teal" FontSize="26" Grid.Column="2" VerticalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </Grid>
+</Page>
