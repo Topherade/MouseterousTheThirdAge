@@ -14,6 +14,8 @@ namespace MouseterousTheThirdAge
         private string _CharacterName;
         private string _ClanName;
         private AttributeSet _CharacterAttributes;
+        private List<SkillsObject> _CharacterSkills;
+        private ProfessionObject _CharacterProfession;
         public int Health
         {
             get

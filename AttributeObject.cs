@@ -7,6 +7,7 @@ namespace MouseterousTheThirdAge
     public class AttributeObject : INotifyPropertyChanged
     {
         public static string ImageURL { get; set; }
+        public static string FlavorText { get; set; }
         public static string Name { get; set; }
         private int _Value;
         public int Value

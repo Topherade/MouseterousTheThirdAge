@@ -1,0 +1,320 @@
+﻿{
+    "Skills": [
+        {
+            "SkillName": "Acrobatics",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Anatomy",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Animal Handling",
+            "Modifier": "Charisma"
+        },
+        {
+            "SkillName": "Athletics",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Bartering",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Boating",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Caving",
+            "Modifier": "Consititution"
+        },
+        {
+            "SkillName": "Climbing",
+            "Modifier": "Strength"
+        },
+        {
+            "SkillName": "Cooking",
+            "Modifier": "Consititution"
+        },
+        {
+            "SkillName": "Deception",
+            "Modifier": "Charisma"
+        },
+        {
+            "SkillName": "Diplomacy",
+            "Modifier": "Charisma"
+        },
+        {
+            "SkillName": "Disguise",
+            "Modifier": "Charisma"
+        },
+        {
+            "SkillName": "Escape",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Fishing",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Foraging",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Forgery",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Handle Alcohol",
+            "Modifier": "Consititution"
+        },
+        {
+            "SkillName": "Healing",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Hiding",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Hunting",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Intimidation",
+            "Modifier": "Strength/Charisma"
+        },
+        {
+            "SkillName": "Investigation",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Leadership",
+            "Modifier": "Charisma"
+        },
+        {
+            "SkillName": "Mimicry",
+            "Modifier": "Charisma"
+        },
+        {
+            "SkillName": "Move Silently",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Persuasion",
+            "Modifier": "Charisma"
+        },
+        {
+            "SkillName": "Riding, Airborne",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Riding, Land-based",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Riding, Sea-based",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Rope Use",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Slight of Hand",
+            "Modifier": "Dexterity"
+        },
+        {
+            "SkillName": "Swimming",
+            "Modifier": "Strength"
+        },
+        {
+            "SkillName": "Tracking",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Wilderness Skills",
+            "Modifier": "Intelligence"
+        },
+        {
+            "SkillName": "Astrology",
+            "Modifier": "Intelligence",
+            "BonusCard": "If asked, tell a player their sign (once per mouse) - flip a coin, heads +2 PAR, tails, -2 PAR"
+        },
+        {
+            "SkillName": "Ceremony",
+            "Modifier": "Spirtuality",
+            "BonusCard": "Gain 15 influence if your houses marry (if heir involved in marriage)"
+        },
+        {
+            "SkillName": "Comedian",
+            "Modifier": "Charisma",
+            "BonusCard": "Party member with lowest int gains +2 PAR"
+        },
+        {
+            "SkillName": "Dancing",
+            "Modifier": "Dexterity",
+            "BonusCard": "10 gold from each living mouse at each camp"
+        },
+        {
+            "SkillName": "Debate",
+            "Modifier": "Intelligence",
+            "BonusCard": "Gain 5 influence with NPC house; another house loses 5 influence with that same house"
+        },
+        {
+            "SkillName": "Dream Interpretation",
+            "Modifier": "Spirtuality",
+            "BonusCard": "If asked, interpret a players dream - +/-1 / 0 PAR based on your interpretation"
+        },
+        {
+            "SkillName": "Duelling",
+            "Modifier": "Dexterity",
+            "BonusCard": "Yellow Card - (LA) Only one opponent can attack you this turn"
+        },
+        {
+            "SkillName": "Fast-Talking",
+            "Modifier": "Charisma",
+            "BonusCard": "+50 gold to any gold related transaction, once per mouse"
+        },
+        {
+            "SkillName": "Heraldry",
+            "Modifier": "Intelligence",
+            "BonusCard": "+3 favor for any house you herald"
+        },
+        {
+            "SkillName": "Hypnotism",
+            "Modifier": "Charisma",
+            "BonusCard": "Convince a player they are not injured"
+        },
+        {
+            "SkillName": "Iaijutsu",
+            "Modifier": "Luck",
+            "BonusCard": "Yellow Card - (LA) Pull out katana and attack"
+        },
+        {
+            "SkillName": "Juggling",
+            "Modifier": "Dexterity",
+            "BonusCard": "Can carry one more item than you can convince the DM you are carrying"
+        },
+        {
+            "SkillName": "Magician",
+            "Modifier": "Intelligence",
+            "BonusCard": "Gain slight of hand skill"
+        },
+        {
+            "SkillName": "Medium",
+            "Modifier": "Spirtuality",
+            "BonusCard": "Gain contact with one dead family member, can switch one of your feats with theirs"
+        },
+        {
+            "SkillName": "Play Instrument",
+            "Modifier": "Dexterity",
+            "BonusCard": "Once per mouse - all members at camp gain +1 sanity"
+        },
+        {
+            "SkillName": "Noh",
+            "Modifier": "Charisma",
+            "BonusCard": "If you are a farmer, become a military leader during adventure (in addition to farmer)"
+        },
+        {
+            "SkillName": "Omen Interpretation",
+            "Modifier": "Intelligence",
+            "BonusCard": "Force one mouse to gain +/- 2 PAR"
+        },
+        {
+            "SkillName": "Oratory",
+            "Modifier": "Charisma",
+            "BonusCard": "Gain diplomacy / persuasion / random if both aquired"
+        },
+        {
+            "SkillName": "Origami",
+            "Modifier": "Dexterity",
+            "BonusCard": "Gain slight of hand skill"
+        },
+        {
+            "SkillName": "Painting",
+            "Modifier": "Dexterity",
+            "BonusCard": "+5 inf with a family; once per mouse"
+        },
+        {
+            "SkillName": "Poetry",
+            "Modifier": "Intelligence",
+            "BonusCard": "Gain a free spouse from a mouse house"
+        },
+        {
+            "SkillName": "Prestidigitation",
+            "Modifier": "Spirtuality",
+            "BonusCard": "Can start fires from apparently nothing"
+        },
+        {
+            "SkillName": "Prophecy",
+            "Modifier": "Spirtuality",
+            "BonusCard": "Choose one child's profession and highest stat (if you survive to have children) or they take prophecy as their performance"
+        },
+        {
+            "SkillName": "Rhetoric",
+            "Modifier": "Charisma",
+            "BonusCard": "Gain 3 influence with all camped houses"
+        },
+        {
+            "SkillName": "Sketching",
+            "Modifier": "Dexterity",
+            "BonusCard": "Gain 25 gold from each surviving house"
+        },
+        {
+            "SkillName": "Shamanistic Ritual",
+            "Modifier": "Spirtuality",
+            "BonusCard": "One of your offspring mice gains gains all traits of an ancestor mouse"
+        },
+        {
+            "SkillName": "Singing",
+            "Modifier": "Charisma",
+            "BonusCard": "+25 gold per marriage ceremony"
+        },
+        {
+            "SkillName": "Soothsaying",
+            "Modifier": "Intelligence",
+            "BonusCard": "Predict outcome of adventure (win/loss); if survive and correct, +2 sanity"
+        },
+        {
+            "SkillName": "Storytelling",
+            "Modifier": "Charisma",
+            "BonusCard": "Tell a deed about a non-surviving house's mouse (+15 influence for you if good, -5 to them with all other houses if bad"
+        },
+        {
+            "SkillName": "Thaumaturgy\t",
+            "Modifier": "Intelligence",
+            "BonusCard": "Once per mouse - Create enough cheese (out of rocks) to feed your party"
+        },
+        {
+            "SkillName": "Tightrope Walking",
+            "Modifier": "Dexterity",
+            "BonusCard": "+1 AGL, lost if you lose a leg"
+        },
+        {
+            "SkillName": "Trance",
+            "Modifier": "Consititution",
+            "BonusCard": "Injuries don't affect you; Additional damage to damaged body parts at end of combat"
+        },
+        {
+            "SkillName": "Ventriloquism",
+            "Modifier": "Intelligence",
+            "BonusCard": "Once per mouse - you can say anything and all other mice think target mouse said that thing; Gain mimicry"
+        },
+        {
+            "SkillName": "Weapon Finesse",
+            "Modifier": "Dexterity",
+            "BonusCard": "Green Card - Minor victory becomes major victory (before damage location is determined)"
+        },
+        {
+            "SkillName": "Whistling/Humming",
+            "Modifier": "Dexterity",
+            "BonusCard": "If lost, even if your team isn't looking for you, you are found"
+        },
+        {
+            "SkillName": "Weaving",
+            "Modifier": "Dexterity",
+            "BonusCard": "Can carry an extra basket full of small goods"
+        }
+    ]
+}

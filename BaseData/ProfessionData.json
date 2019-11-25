@@ -1,0 +1,737 @@
+﻿{
+    "Professions": [
+        {
+            "Profession": "Accountant",
+            "Modifier": "Intelligence",
+            "Skill1": "Forgery",
+            "Skill2": "Bartering",
+            "BonusCard": "1.25 multiplier to treasury (on mouse creation)"
+        },
+        {
+            "Profession": "Actor",
+            "Modifier": "Charisma",
+            "Skill1": "Mimicry",
+            "Skill2": "Disguise",
+            "BonusCard": "Choose an additional CHA based Performance Skill"
+        },
+        {
+            "Profession": "Alchemist",
+            "Modifier": "Intelligence",
+            "Skill1": "Anatomy",
+            "Skill2": "Healing",
+            "BonusCard": "Yellow Card Offensive Potion "
+        },
+        {
+            "Profession": "Apothecary",
+            "Modifier": "Intelligence",
+            "Skill1": "Anatomy",
+            "Skill2": "Healing",
+            "BonusCard": "Yellow Card Defensive Potion "
+        },
+        {
+            "Profession": "Archeologist",
+            "Modifier": "Intelligence",
+            "Skill1": "Caving",
+            "Skill2": "Investigation",
+            "BonusCard": "Lore (Culture)"
+        },
+        {
+            "Profession": "Architect",
+            "Modifier": "Intelligence",
+            "Skill1": "Leadership",
+            "Skill2": "Rope Use",
+            "BonusCard": "Builder"
+        },
+        {
+            "Profession": "Armourer",
+            "Modifier": "Strength",
+            "Skill1": "Bartering",
+            "Skill2": "Persuasion",
+            "BonusCard": "Repair Armors"
+        },
+        {
+            "Profession": "Artist",
+            "Modifier": "Charisma",
+            "Skill1": "Forgery",
+            "Skill2": "Bartering",
+            "BonusCard": "Painting Performance Skill"
+        },
+        {
+            "Profession": "Assassin",
+            "Modifier": "Dexterity",
+            "Skill1": "Acrobatics",
+            "Skill2": "Move Silently",
+            "BonusCard": "Pick a target, roll D20 on 17-20 kill heir else die"
+        },
+        {
+            "Profession": "Astromer",
+            "Modifier": "Spirtuality",
+            "Skill1": "Boating",
+            "Skill2": "Wilderness Skills",
+            "BonusCard": "Always knows North, Performance - Omen Interpretor"
+        },
+        {
+            "Profession": "Banker",
+            "Modifier": "Intelligence",
+            "Skill1": "Deception",
+            "Skill2": "Bartering",
+            "BonusCard": "1.25 multiplier to treasury (on mouse creation)"
+        },
+        {
+            "Profession": "BeeKeeper",
+            "Modifier": "Dexterity",
+            "Skill1": "Escape",
+            "Skill2": "Use Rope",
+            "BonusCard": "Yellow Card BeeStinger "
+        },
+        {
+            "Profession": "Blacksmith",
+            "Modifier": "Strength",
+            "Skill1": "Bartering",
+            "Skill2": "Intimidation",
+            "BonusCard": "Repair Weapons"
+        },
+        {
+            "Profession": "Boatwright",
+            "Modifier": "Strength",
+            "Skill1": "Swimming",
+            "Skill2": "Boating",
+            "BonusCard": "Repair Boat"
+        },
+        {
+            "Profession": "Bookbinder",
+            "Modifier": "Intelligence",
+            "Skill1": "Forgery",
+            "Skill2": "Investigation",
+            "BonusCard": "Lore (History)"
+        },
+        {
+            "Profession": "Bowyer/Fletcher",
+            "Modifier": "Dexterity",
+            "Skill1": "Hunting",
+            "Skill2": "Rope Use",
+            "BonusCard": "Repair Bow/Make Arrows"
+        },
+        {
+            "Profession": "Breadmaker",
+            "Modifier": "Constitution",
+            "Skill1": "Cooking",
+            "Skill2": "Foraging",
+            "BonusCard": "Camping Trait - +1 sanity to people who eat his bread"
+        },
+        {
+            "Profession": "Brewer",
+            "Modifier": "Constitution",
+            "Skill1": "Cooking",
+            "Skill2": "Handle Alcohol",
+            "BonusCard": "Produces family brew (Method to gain favor)"
+        },
+        {
+            "Profession": "Bricklayer",
+            "Modifier": "Strength",
+            "Skill1": "Rope Use",
+            "Skill2": "Athletics",
+            "BonusCard": "Builder"
+        },
+        {
+            "Profession": "Bum",
+            "Modifier": "Charisma",
+            "Skill1": "Escape",
+            "Skill2": "Fishing",
+            "BonusCard": "Foraging"
+        },
+        {
+            "Profession": "Bureaucrat",
+            "Modifier": "Charisma",
+            "Skill1": "Investigation",
+            "Skill2": "Forgery",
+            "BonusCard": "Bonus favor with main house"
+        },
+        {
+            "Profession": "Butcher",
+            "Modifier": "Dexterity",
+            "Skill1": "Anatomy",
+            "Skill2": "Handle animal",
+            "BonusCard": "More food from carcasses"
+        },
+        {
+            "Profession": "Butler",
+            "Modifier": "Charisma",
+            "Skill1": "Move silently",
+            "Skill2": "Diplomacy",
+            "BonusCard": "All surviving members gain favor if butler survives"
+        },
+        {
+            "Profession": "Carpenter",
+            "Modifier": "Strength",
+            "Skill1": "Use rope",
+            "Skill2": "Acrobatics",
+            "BonusCard": "Builder"
+        },
+        {
+            "Profession": "Cartography",
+            "Modifier": "Intelligence",
+            "Skill1": "Riding, Land-based",
+            "Skill2": "Wilderness Skills",
+            "BonusCard": "Can never get lost"
+        },
+        {
+            "Profession": "Cartwright",
+            "Modifier": "Strength",
+            "Skill1": "Riding, Land-based",
+            "Skill2": "Animal Handling",
+            "BonusCard": "Gets a cart!"
+        },
+        {
+            "Profession": "Cheesemaker",
+            "Modifier": "Constitution",
+            "Skill1": "Cooking",
+            "Skill2": "Healing",
+            "BonusCard": "Everyone heals 1hp at camp"
+        },
+        {
+            "Profession": "Clergy",
+            "Modifier": "Spirtuality",
+            "Skill1": "Persuasion",
+            "Skill2": "Leadership",
+            "BonusCard": "Lore (religion), make something up for the mouse bible (failure to abide causes sanity loss)"
+        },
+        {
+            "Profession": "Clockworker",
+            "Modifier": "Dexterity",
+            "Skill1": "Slight of hand",
+            "Skill2": "Bartering",
+            "BonusCard": "Always knows the time"
+        },
+        {
+            "Profession": "Dentist",
+            "Modifier": "Intelligence/Dexterity",
+            "Skill1": "Anatomy",
+            "Skill2": "Handle alcohol",
+            "BonusCard": "Yellow card - bite"
+        },
+        {
+            "Profession": "Detective",
+            "Modifier": "Intelligence",
+            "Skill1": "Investigation",
+            "Skill2": "Tracking",
+            "BonusCard": "Learn NPC House intrigue"
+        },
+        {
+            "Profession": "Diplomat",
+            "Modifier": "Charisma",
+            "Skill1": "Diplomacy",
+            "Skill2": "Persuasion",
+            "BonusCard": "Bonus favor with house"
+        },
+        {
+            "Profession": "Doctor",
+            "Modifier": "Intelligence",
+            "Skill1": "Anatomy",
+            "Skill2": "Healing",
+            "BonusCard": "Bonus modifier to avoid infection (party wide)"
+        },
+        {
+            "Profession": "Dyer",
+            "Skill1": "Swimming",
+            "Skill2": "Foraging",
+            "BonusCard": "Yellow Card - Ink"
+        },
+        {
+            "Profession": "Engineer",
+            "Modifier": "Intelligence",
+            "Skill1": "Investigation",
+            "Skill2": "Leadership",
+            "BonusCard": "Design"
+        },
+        {
+            "Profession": "Entertainer",
+            "Modifier": "Charisma",
+            "Skill1": "Persuasion",
+            "Skill2": "Acrobatics",
+            "BonusCard": "Choose an additional CHA based Performance Skill"
+        },
+        {
+            "Profession": "Farmer",
+            "Modifier": "Constitution",
+            "Skill1": "Foraging",
+            "Skill2": "Hunting",
+            "BonusCard": "Trained in sickle;"
+        },
+        {
+            "Profession": "Flower Arranger",
+            "Skill1": "Foraging",
+            "Skill2": "Diplomacy",
+            "BonusCard": "+50 gold on heir marraiges"
+        },
+        {
+            "Profession": "Fortune Teller",
+            "Modifier": "Spirtuality",
+            "Skill1": "Intimidation",
+            "Skill2": "Persuasion",
+            "BonusCard": "Predicts who will die on an adventure (must pick at least on player), those picked get -2 sanity"
+        },
+        {
+            "Profession": "Gambler",
+            "Modifier": "Luck",
+            "Skill1": "Slight of hand",
+            "Skill2": "Deception",
+            "BonusCard": "Yellow Card - Flip a coin, heads, your opponent dies, tails, you die"
+        },
+        {
+            "Profession": "Gem Cutter",
+            "Modifier": "Dexterity",
+            "Skill1": "Bartering",
+            "Skill2": "Caving",
+            "BonusCard": "Money / gems loot x2 (value) on survival"
+        },
+        {
+            "Profession": "Gladiator",
+            "Modifier": "Strength/Dexterity",
+            "Skill1": "Athletics",
+            "BonusCard": "Trained in net; Trained in trident;"
+        },
+        {
+            "Profession": "Glassblower",
+            "Modifier": "Dexterity",
+            "Skill1": "Bartering",
+            "Skill2": "Swimming",
+            "BonusCard": "Choose performance (Play instrument (wind) or whistling)"
+        },
+        {
+            "Profession": "Grocer",
+            "Skill1": "Cooking",
+            "Skill2": "Animal Handling",
+            "BonusCard": "+5 to determine if food is edible (foraging checks)"
+        },
+        {
+            "Profession": "Groomer",
+            "Skill1": "Slight of hand",
+            "Skill2": "Diplomacy",
+            "BonusCard": "+1 to CHA"
+        },
+        {
+            "Profession": "Hermit",
+            "Modifier": "Spirtuality",
+            "Skill1": "Wilderness Skills",
+            "Skill2": "Hiding",
+            "BonusCard": "Fishing and Hunting, -2 to CHA"
+        },
+        {
+            "Profession": "Hibachi Chef",
+            "Modifier": "Constitution",
+            "Skill1": "Cooking",
+            "Skill2": "Slight of hand",
+            "BonusCard": "+10 fire resistance"
+        },
+        {
+            "Profession": "Historian",
+            "Modifier": "Intelligence",
+            "Skill1": "Investigation",
+            "Skill2": "Diplomacy",
+            "BonusCard": "Lore (History)"
+        },
+        {
+            "Profession": "Hunter",
+            "Modifier": "Dexterity",
+            "Skill1": "Hunting",
+            "Skill2": "Tracking",
+            "BonusCard": "Wilderness Skills"
+        },
+        {
+            "Profession": "Inn owner",
+            "Modifier": "Charisma",
+            "Skill1": "Handle Alcohol",
+            "Skill2": "Persuasion",
+            "BonusCard": "Diplomacy, +1 CHA"
+        },
+        {
+            "Profession": "Insectist",
+            "Modifier": "Strength",
+            "Skill1": "Handle Animal",
+            "BonusCard": "Gain an insect companion"
+        },
+        {
+            "Profession": "Instrument Crafter",
+            "Modifier": "Dexterity",
+            "Skill1": "Diplomacy",
+            "Skill2": "Slight of hand",
+            "BonusCard": "Performance - Play Instrument"
+        },
+        {
+            "Profession": "Janiter",
+            "Skill1": "Move Silently",
+            "Skill2": "Hiding",
+            "BonusCard": "-5 Infection, -5 disease checks, -1 CHA"
+        },
+        {
+            "Profession": "Jeweler",
+            "Modifier": "Luck",
+            "Skill1": "Slight of hand",
+            "Skill2": "Bartering",
+            "BonusCard": "Gain 10% of the heir's treasury (1x per family)"
+        },
+        {
+            "Profession": "Judge",
+            "Modifier": "Intelligence",
+            "Skill1": "Leadership",
+            "Skill2": "Diplomacy",
+            "BonusCard": "Investigation, Performance - Rhetoric"
+        },
+        {
+            "Profession": "Knight",
+            "Modifier": "Strength/Charisma",
+            "Skill1": "Riding, Land-based",
+            "Skill2": "Intimidation",
+            "BonusCard": "Starts with mount and squire; second check for death before adulthood; Can choose one (Non exotic) weapon proficiency"
+        },
+        {
+            "Profession": "Landscaper",
+            "Modifier": "Constitution",
+            "Skill1": "Athletics",
+            "Skill2": "Climbing",
+            "BonusCard": "Bartering, has a really nice house, +5 to influence when people visit his house to negotiate"
+        },
+        {
+            "Profession": "Lawyer",
+            "Modifier": "Intelligence",
+            "Skill1": "Persuasion",
+            "Skill2": "Diplomacy",
+            "BonusCard": "Investigation, Performance - Debate"
+        },
+        {
+            "Profession": "Leather Worker",
+            "Modifier": "Strength",
+            "Skill1": "Athletics",
+            "Skill2": "Bartering",
+            "BonusCard": "Can repair light armor"
+        },
+        {
+            "Profession": "Librarian",
+            "Modifier": "Intelligence",
+            "Skill1": "Move silently",
+            "Skill2": "Investigation",
+            "BonusCard": "Lore (History)"
+        },
+        {
+            "Profession": "Locksmith",
+            "Modifier": "Dexterity",
+            "Skill1": "Escape",
+            "Skill2": "Slight of hand",
+            "BonusCard": "Can pick locks"
+        },
+        {
+            "Profession": "Lumberjack",
+            "Modifier": "Strength",
+            "Skill1": "Climbing",
+            "Skill2": "Acrobatics",
+            "BonusCard": "Wilderness Skills, can always find dry wood"
+        },
+        {
+            "Profession": "Masseur",
+            "Modifier": "Dexterity",
+            "Skill1": "Slight of hand",
+            "Skill2": "Healing",
+            "BonusCard": "+3 sanity to one other person (one time use)"
+        },
+        {
+            "Profession": "Mercenary",
+            "Modifier": "Strength/Dexterity",
+            "Skill1": "Tracking",
+            "Skill2": "Athletics",
+            "BonusCard": "+5% Main house treasury if survives a mission"
+        },
+        {
+            "Profession": "Merchant(Trader)",
+            "Modifier": "Charisma",
+            "Skill1": "Bartering",
+            "Skill2": "Handle Animal",
+            "BonusCard": "Non-money loot x3 value if sold immediately after survival"
+        },
+        {
+            "Profession": "Midwife",
+            "Skill1": "Anatomy",
+            "BonusCard": "Women only, houses can pay 25% of treasury/child to that child survive to adulthood"
+        },
+        {
+            "Profession": "Military Officer",
+            "Modifier": "Intelligence/Charisma",
+            "Skill1": "Leadership",
+            "Skill2": "Riding, Land-based",
+            "BonusCard": "Green Card - Tactical Movement (Change 2 friendly move cards after they are revealed)"
+        },
+        {
+            "Profession": "Miller",
+            "Modifier": "Constitution",
+            "Skill1": "Cooking",
+            "Skill2": "Athletics",
+            "BonusCard": "x1.25 treasury on survival"
+        },
+        {
+            "Profession": "Miner",
+            "Modifier": "Strength",
+            "Skill1": "Caving",
+            "Skill2": "Athletics",
+            "BonusCard": "Trained in pickaxe; "
+        },
+        {
+            "Profession": "Monk",
+            "Modifier": "Constitution",
+            "Skill1": "Acrobatics",
+            "Skill2": "Move Silently",
+            "BonusCard": "Lore (Religion); Trained in unarmed; Can't be trained in other weapons"
+        },
+        {
+            "Profession": "Navigater",
+            "Modifier": "Intelligence",
+            "Skill1": "Boating",
+            "Skill2": "Swimming",
+            "BonusCard": "Always knows north"
+        },
+        {
+            "Profession": "Neature Guide",
+            "Modifier": "Constitution",
+            "Skill1": "Wilderness Skills",
+            "Skill2": "Foraging",
+            "BonusCard": "Can't fail wilderness based checks in own territory"
+        },
+        {
+            "Profession": "Oarsman",
+            "Modifier": "Strength",
+            "Skill1": "Swimming",
+            "Skill2": "Athletics",
+            "BonusCard": "Green Card - Follow the Leader (Copy another allie's move after reveal)"
+        },
+        {
+            "Profession": "Papermaker",
+            "Skill1": "Forgery",
+            "Skill2": "Foraging",
+            "BonusCard": "Random skill"
+        },
+        {
+            "Profession": "Pest Control",
+            "Modifier": "Constitution",
+            "Skill1": "Animal Handling",
+            "Skill2": "Hunting",
+            "BonusCard": "Yellow Card - Kill Insect"
+        },
+        {
+            "Profession": "Philosopher",
+            "Modifier": "Spirtuality",
+            "Skill1": "Performance - Debate",
+            "Skill2": "Performance - Prophecy",
+            "BonusCard": "Performance - Omen Interpretation"
+        },
+        {
+            "Profession": "Plumber",
+            "Modifier": "Constitution",
+            "Skill1": "Acrobatics",
+            "Skill2": "Caving",
+            "BonusCard": "Swimming"
+        },
+        {
+            "Profession": "Pottery",
+            "Modifier": "Dexterity",
+            "Skill1": "Slight of hand",
+            "Skill2": "Forgery",
+            "BonusCard": "Performance - Painting"
+        },
+        {
+            "Profession": "Protitute",
+            "Modifier": "Luck",
+            "Skill1": "Bartering",
+            "Skill2": "Persuasion",
+            "BonusCard": "Learn NPC House intrigue"
+        },
+        {
+            "Profession": "Psychologist",
+            "Modifier": "Spirtuality",
+            "Skill1": "Persuasion",
+            "Skill2": "Deception",
+            "BonusCard": "Performance - Dream Interpretation"
+        },
+        {
+            "Profession": "Researcher",
+            "Modifier": "Intelligence",
+            "Skill1": "Investigation",
+            "BonusCard": "Pick 2 INT based skill; if character has negative INT no random skills"
+        },
+        {
+            "Profession": "Sales Clerk",
+            "Modifier": "Charisma",
+            "Skill1": "Persuasion",
+            "Skill2": "Bartering",
+            "BonusCard": "Sells loot for 1.5x"
+        },
+        {
+            "Profession": "Scholar",
+            "Modifier": "Intelligence",
+            "Skill1": "Investigation",
+            "BonusCard": "Lore (Choice) x2"
+        },
+        {
+            "Profession": "Scribe",
+            "Modifier": "Intelligence/Charisma",
+            "Skill1": "Forgery",
+            "Skill2": "Slight of hand",
+            "BonusCard": "Make something about a clan that did not survive if you survive"
+        },
+        {
+            "Profession": "Sculpture",
+            "Modifier": "Dexterity/Charisma",
+            "Skill1": "Slight of hand",
+            "BonusCard": "Make one sculpture, sell for money or influence (forced sale, 10%treasury, 5 inf)"
+        },
+        {
+            "Profession": "Seamanship",
+            "Modifier": "Constitution",
+            "Skill1": "Acrobatics",
+            "Skill2": "Boating",
+            "BonusCard": "Riding, Sea-based"
+        },
+        {
+            "Profession": "Seamstress/Tailor",
+            "Modifier": "Dexterity",
+            "Skill1": "Disguise",
+            "Skill2": "Slight of hand",
+            "BonusCard": "Make clothes / blankets"
+        },
+        {
+            "Profession": "Shepard",
+            "Modifier": "Constitution",
+            "Skill1": "Foraging",
+            "Skill2": "Animal Handling",
+            "BonusCard": "Lore (Animal)"
+        },
+        {
+            "Profession": "Silk Maker",
+            "Modifier": "Constitution",
+            "Skill1": "Animal Handling",
+            "Skill2": "Rope Use",
+            "BonusCard": "Silk worm companion"
+        },
+        {
+            "Profession": "Skinner",
+            "Modifier": "Dexterity",
+            "Skill1": "Animal Handling",
+            "Skill2": "Slight of hand",
+            "BonusCard": "If survives, can sell any aquired pelts"
+        },
+        {
+            "Profession": "Slaver",
+            "Modifier": "Strength/Dexterity",
+            "Skill1": "Intimidation",
+            "Skill2": "Tracking",
+            "BonusCard": "Yellow Card x2 - (LA) Capture injured mouse"
+        },
+        {
+            "Profession": "Smelter",
+            "Modifier": "Strength/Constitution",
+            "Skill1": "Athletics",
+            "Skill2": "Cooking",
+            "BonusCard": "+10 heat resistance"
+        },
+        {
+            "Profession": "Soldier",
+            "Modifier": "Strength/Constitution",
+            "Skill1": "Athletics",
+            "Skill2": "Intimidation",
+            "BonusCard": "Yellow Card - Team Defense (LD) Adjacent Allies gain LD victory conditions"
+        },
+        {
+            "Profession": "Squire",
+            "Modifier": "Constitution",
+            "Skill1": "Hiding",
+            "Skill2": "Athletics",
+            "BonusCard": "If survives, children can choose knight; Performance- Heraldry"
+        },
+        {
+            "Profession": "Stonemason",
+            "Modifier": "Strength",
+            "Skill1": "Athletics",
+            "Skill2": "Climbing",
+            "BonusCard": "Builder"
+        },
+        {
+            "Profession": "Tanner",
+            "Modifier": "Dexterity",
+            "Skill1": "Handle Animal",
+            "Skill2": "Handle Alcohol",
+            "BonusCard": "If only one to not survive, gain 15 influence with all NPC houses, collect funeral fees (50 gold) from all houses"
+        },
+        {
+            "Profession": "Tattoo Artist",
+            "Modifier": "Spirtuality",
+            "Skill1": "Slight of hand",
+            "Skill2": "Intimidation",
+            "BonusCard": "Performance - Sketching, Yellow Card - Forced Retreat"
+        },
+        {
+            "Profession": "Taxidermist",
+            "Modifier": "Constitution",
+            "Skill1": "Hunting",
+            "Skill2": "Anatomy",
+            "BonusCard": "If survives, can stuff any dead creatures he brings home"
+        },
+        {
+            "Profession": "Thatcher",
+            "Modifier": "Dexterity",
+            "Skill1": "Acrobatics",
+            "Skill2": "Climbing",
+            "BonusCard": "Builder"
+        },
+        {
+            "Profession": "Thief",
+            "Modifier": "Dexterity",
+            "Skill1": "Move silently",
+            "Skill2": "Slight of hand",
+            "BonusCard": "Hiding"
+        },
+        {
+            "Profession": "Town Cryer",
+            "Modifier": "Charisma",
+            "Skill1": "Persuasion",
+            "Skill2": "Climbing",
+            "BonusCard": "Gains 250 gold for every death (if survives)"
+        },
+        {
+            "Profession": "Undertaker",
+            "Modifier": "Constitution",
+            "Skill1": "Athletics",
+            "Skill2": "Anatomy",
+            "BonusCard": "If survives, gains influence and money for each dead party member"
+        },
+        {
+            "Profession": "Unemployed",
+            "BonusCard": "Three random skills"
+        },
+        {
+            "Profession": "Weaponsmith",
+            "Modifier": "Strength",
+            "Skill1": "Athletics",
+            "Skill2": "Bartering",
+            "BonusCard": "Repair weapons"
+        },
+        {
+            "Profession": "Weaver",
+            "Modifier": "Dexterity",
+            "Skill1": "Slight of hand",
+            "Skill2": "Bartering",
+            "BonusCard": "Performance - Weaving"
+        },
+        {
+            "Profession": "Winemaker",
+            "Modifier": "Constitution",
+            "Skill1": "Cooking",
+            "Skill2": "Handle Alcohol",
+            "BonusCard": "Produces family vintage (Gains favor with great house)"
+        },
+        {
+            "Profession": "Woodcarver",
+            "Modifier": "Dexterity/Charisma",
+            "Skill1": "Climbing",
+            "Skill2": "Foraging",
+            "BonusCard": "Use Rope"
+        }
+    ]
+}

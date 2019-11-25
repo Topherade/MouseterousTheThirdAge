@@ -75,5 +75,22 @@
             </ListView.ItemTemplate>
         </ListView>
 
+        <ListView x:Name="Skills" HorizontalAlignment="Left" Height="419" Margin="268,578,0,0" VerticalAlignment="Top" Width="301" BorderThickness="2,2,2,2" RequestedTheme="Default" BorderBrush="Black" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="185"/>
+                            <ColumnDefinition Width="65"/>
+                        </Grid.ColumnDefinitions>
+                        <!--<Image Width="32" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Source="{Binding ImageURL}" />-->
+                        <TextBlock Text="{Binding Name}" Foreground="Teal" FontSize="26" Grid.Column="1" VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding Value}" Foreground="Teal" FontSize="26" Grid.Column="2" VerticalAlignment="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
     </Grid>
 </Page>
