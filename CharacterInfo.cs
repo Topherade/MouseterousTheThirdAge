@@ -136,7 +136,36 @@ namespace MouseterousTheThirdAge
                 }
             }
         }
-
+        public List<SkillsObject> CharacterSkills
+        {
+            get
+            {
+                return this._CharacterSkills;
+            }
+            set
+            {
+                if (value != this._CharacterSkills)
+                {
+                    this._CharacterSkills = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
+        public ProfessionObject CharacterProfession
+        {
+            get
+            {
+                return this._CharacterProfession;
+            }
+            set
+            {
+                if (value != this._CharacterProfession)
+                {
+                    this._CharacterProfession = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
 
 
         public event PropertyChangedEventHandler PropertyChanged;

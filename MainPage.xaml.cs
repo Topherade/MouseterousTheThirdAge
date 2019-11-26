@@ -1,19 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Media.Imaging;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -30,6 +20,7 @@ namespace MouseterousTheThirdAge
             this.InitializeComponent();
             setCharacterInfo();
             setMainPagBindings();
+
         }
 
         private void setCharacterInfo()
@@ -39,16 +30,9 @@ namespace MouseterousTheThirdAge
                 this.gCharacterInfo = new CharacterInfo();
             }
             SetAttributeInfo(this.gCharacterInfo);
-            Random randomNumGen = new Random();
-            this.DataContext = gCharacterInfo;
-            this.gCharacterInfo.Health = randomNumGen.Next(1, 999);
-            this.gCharacterInfo.Paranoia = randomNumGen.Next(1, 999);
-            this.gCharacterInfo.Defense = randomNumGen.Next(0, 999);
-            this.gCharacterInfo.MagicDefense = randomNumGen.Next(0, 999);
-            this.gCharacterInfo.ParanoiaShield = randomNumGen.Next(0, 999);
-            
+            SetDefensesInfo(this.gCharacterInfo);
+            SetProfessionInfo(this.gCharacterInfo);
         }
-
         private void SetAttributeInfo(CharacterInfo CharacterInfo)
         {
             Random randomNumGen = new Random();
@@ -62,11 +46,44 @@ namespace MouseterousTheThirdAge
             CharacterInfo.CharacterAttributes.Constitution = new ConstitutionAttribute { Value = randomNumGen.Next(3, 18) };
             CharacterInfo.CharacterAttributes.Luck = new LuckAttribute { Value = randomNumGen.Next(3, 18) };
         }
+        private void SetDefensesInfo(CharacterInfo gCharacterInfo)
+        {
+            Random randomNumGen = new Random();
+            this.DataContext = gCharacterInfo;
+            this.gCharacterInfo.Health = randomNumGen.Next(1, 999);
+            this.gCharacterInfo.Paranoia = randomNumGen.Next(1, 999);
+            this.gCharacterInfo.Defense = randomNumGen.Next(0, 999);
+            this.gCharacterInfo.MagicDefense = randomNumGen.Next(0, 999);
+            this.gCharacterInfo.ParanoiaShield = randomNumGen.Next(0, 999);
+        }
+
+        private void SetProfessionInfo(CharacterInfo gCharacterInfo)
+        {
+            Random randomNumGen = new Random();
+            gCharacterInfo.CharacterProfession = new ProfessionObject();
+            this.DataContext = gCharacterInfo.CharacterProfession;
+            ProfessionLibrary lprofessionList = null;
+            using (StreamReader r = new StreamReader("Assets/BaseData/ProfessionData.json"))
+            {
+                string json = r.ReadToEnd();
+                lprofessionList = JsonConvert.DeserializeObject<ProfessionLibrary>(json);
+            }
+            ProfessionObject chosenProfession = lprofessionList.Professions[randomNumGen.Next(0, lprofessionList.Professions.Count - 1)];
+            gCharacterInfo.CharacterProfession.BonusCard = chosenProfession.BonusCard;
+            gCharacterInfo.CharacterProfession.FlavorText = chosenProfession.FlavorText;
+            gCharacterInfo.CharacterProfession.ImageURL = chosenProfession.ImageURL;
+            gCharacterInfo.CharacterProfession.Modifier = chosenProfession.Modifier;
+            gCharacterInfo.CharacterProfession.Profession = chosenProfession.Profession;
+            gCharacterInfo.CharacterProfession.Skill1 = chosenProfession.Skill1;
+            gCharacterInfo.CharacterProfession.Skill2 = chosenProfession.Skill2;
+        }
+
+
 
         private void setMainPagBindings()
         {
             Attributes.ItemsSource = gCharacterInfo.CharacterAttributes.ToIEnumerableAttributeObject();
-
+            //todo figureout how to get initial values to load
         }
 
         private void ClanTabButton_Click(object sender, RoutedEventArgs e)

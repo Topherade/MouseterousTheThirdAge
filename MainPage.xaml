@@ -56,7 +56,10 @@
         <Button x:Name="AbilitiesTabButton" Content="Abilities Tab" Height="79" Margin="807,0,0,0" VerticalAlignment="Top" Width="269" FontSize="36" Click="AbilitiesTabButton_Click"/>
         <Button x:Name="SaveButton" Content="Save To Server" Height="79" Margin="1250,920,0,0" VerticalAlignment="Top" FontSize="36" Click="SaveButton_Click" />
         <TextBox x:Name="Clan_Name" HorizontalAlignment="Left" Height="79" Margin="1076,0,0,0" Text="Clan Name Here" TextWrapping="Wrap" VerticalAlignment="Top" Width="423" FontSize="36"/>
-        <TextBox x:Name="Mouse_Name" HorizontalAlignment="Left" Height="140" Margin="-1,82,0,0" Text="Mouse Name Here" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontSize="24"/>
+        <TextBox x:Name="Mouse_Name" HorizontalAlignment="Left" Height="106" Margin="0,82,0,0" Text="Mouse Name Here" TextWrapping="Wrap" VerticalAlignment="Top" Width="270" FontSize="24"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="35" Margin="0,187,0,0" VerticalAlignment="Top" Width="270"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="0,193,0,0" Text="Profession: " TextWrapping="Wrap" VerticalAlignment="Top" Width="98" FontSize="20"/>
+        <TextBlock x:Name="Mouse_Profession" HorizontalAlignment="Left" Height="28" Margin="98,193,0,0" Text="{Binding CharacterProfession.Profession, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" FontSize="20"/>
 
         <ListView x:Name="Attributes" HorizontalAlignment="Left" Height="324" Margin="269,82,0,0" VerticalAlignment="Top" Width="300" BorderThickness="2,2,2,2" RequestedTheme="Default" BorderBrush="Black" >
             <ListView.ItemTemplate>
@@ -91,6 +94,8 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+
+
 
     </Grid>
 </Page>

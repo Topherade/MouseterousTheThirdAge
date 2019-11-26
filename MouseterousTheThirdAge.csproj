@@ -125,7 +125,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ProfessionObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkillsObject.cs" />
     <Compile Include="StringFormatToImageSourceConverter.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -181,6 +183,13 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\BaseData\ProfessionData.json" />
+    <Content Include="Assets\BaseData\SkillData.json" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
